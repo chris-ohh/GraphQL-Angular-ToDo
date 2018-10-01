@@ -1,0 +1,23 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "graphql"
+  ],
+  "dependencies": {
+    "bluebird": "^3.5.2",
+    "cors": "^2.8.4",
+    "express": "*",
+    "express-graphql": "*",
+    "graphql": "^14.0.2",
+    "mongoose": "^4.13.17"
+  }
+}
